@@ -1,3 +1,5 @@
+package ru.netology.game;
+
 import ru.netology.game.Player;
 
 import java.util.ArrayList;
@@ -41,14 +43,14 @@ public class Game {
         if (player1.getStrength() > player2.getStrength()) {
             return 1;
         }
-            if (player1.getStrength() < player2.getStrength()) {
-                return 2;
+        if (player1.getStrength() < player2.getStrength()) {
+            return 2;
 
-            }
-            return 0;
         }
-
+        return 0;
     }
+
+}
 
 
 
